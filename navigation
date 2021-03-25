@@ -1,0 +1,9 @@
+height = int(input("Enter the height of plane "))
+if height == 3000:
+  print("It's safe for landing ")
+elif ((height>3000)and(height<6000)):
+  print("Try landing the plane ")
+elif height>=6000:
+  print("Go Around")
+else:
+  print("Error!!! Enter proper height")
